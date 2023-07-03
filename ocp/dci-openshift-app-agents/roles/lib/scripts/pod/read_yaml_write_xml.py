@@ -408,7 +408,7 @@ class CfgData:
                         if get_env_variable("VFIO_TOKEN"):
                             vfio_token = get_env_variable("VFIO_TOKEN")
                         else:
-                            for acc_info in json.loads(get_env_variable("PCIDEVICE_INTEL_COM_INTEL_FEC_ACC100_INFO")).values():
+                            for acc_info in json.loads(get_env_variable("PCIDEVICE_INTEL_COM_INTEL_FEC_ACC200_INFO")).values():
                                vfio_token = acc_info['extra']['VFIO_TOKEN']
 
                         if xml_vfio_token is not None and vfio_token is not None:

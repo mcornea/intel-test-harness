@@ -33,15 +33,15 @@ spec:
           mountPath: /dev
       resources:
         limits:
-          hugepages-1Gi: 20Gi 
-          memory: 20Gi
-          cpu: 32
-          intel.com/intel_fec_acc100: '1'
+          hugepages-1Gi: 32Gi
+          memory: 64Gi
+          cpu: 48
+          intel.com/intel_fec_acc200: '1'
         requests:
-          hugepages-1Gi: 20Gi
-          memory: 20Gi
-          cpu: 32
-          intel.com/intel_fec_acc100: '1'
+          hugepages-1Gi: 32Gi
+          memory: 64Gi
+          cpu: 48
+          intel.com/intel_fec_acc200: '1'
   volumes:
     - name: hugepage
       emptyDir:

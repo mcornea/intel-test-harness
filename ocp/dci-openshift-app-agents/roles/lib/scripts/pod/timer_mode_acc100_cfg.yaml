@@ -38,7 +38,7 @@ Dpdk_cfgs:
   1:
     phycfg_timer:
       dpdkMemorySize: 8192
-      dpdkEnvModeStr: PCIDEVICE_INTEL_COM_INTEL_FEC_ACC100
+      dpdkEnvModeStr: PCIDEVICE_INTEL_COM_INTEL_FEC_ACC200
 
 Api_cfgs:
   1:
